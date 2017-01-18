@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0 100px;
+    background-color: black;
+    background-image: url('bg.jpg');
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 span {
+    color: red;
+}
+
+h2 {
+    text-align: right;
+    margin: 0;
+}
+
+h2 span {
+    color: red;
+}
+
+.main {
+    margin: 0 auto;
+    width: 450px;
+    line-height: 50px;
+}
+
+.main input {
+    border: 2px solid red;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    outline: none;
+    height: 19px;
+    padding-left: 5px;
+}
+
+.main input[type=button] {
+    display: block;
+    margin: 30px auto;
+    background-color: red;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+}
+
+
+/*.game {
+    margin: 0 auto;
+    width: 100%
+}*/
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
