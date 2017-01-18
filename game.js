@@ -67,15 +67,17 @@
 
          // Set Intervals of frames changes in Canvas
          setInterval(function() {
-             renderSelectedBall()
-             document.getElementById('score').innerHTML = score
+             if (gameStart) {
+                 renderSelectedBall()
+                 document.getElementById('score').innerHTML = score
+             }
          }, 1000 / 60);
-
 
          setInterval(function() {
-             renderAll()
-         }, 1000 / 60);
-
+             if (gameStart) {
+                 renderAll()
+             }
+         }, 1000 / 2);
      }
 
      // Check is game valid. 
